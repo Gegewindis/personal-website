@@ -222,8 +222,7 @@ footer p{
     width: 500px;
     border-radius: 100%;
 
-    left: 0;
-    top: 0;
+    inset-inline-start: 0;
     transform: translate(-50%, -50%);
 }
 
@@ -233,11 +232,11 @@ footer p{
     border-top-left-radius: 1000px;
     border-bottom-left-radius: 1000px;
 
-    right: 0;
-    bottom: 0;
+    inset-inline-end: 0;
     transform: translate(0%, 50%);
 }
 
+/* MÅSTE ÄNDRA (INSET-INLINE-END/START) */
 #sml-1{
     height: 150px;
     width: 150px; 
